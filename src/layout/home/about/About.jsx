@@ -6,7 +6,7 @@ const About = () => (
       <div className="info-container">
         <div className="img-container">
           <img
-            src="../../../asset/img/pro-pic.jpg"
+            src="../../asset/img/pro-pic.jpg"
             alt=""
             height="85"
             width="85"
