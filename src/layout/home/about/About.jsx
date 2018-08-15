@@ -7,7 +7,7 @@ const About = () => (
       <div className="info-container">
         <div className="img-container">
           <img
-            src={proPic}
+            src={process.env.PUBLIC_UR + '/asset/img/pro-pic.jpg'}
             alt=""
             height="85"
             width="85"
