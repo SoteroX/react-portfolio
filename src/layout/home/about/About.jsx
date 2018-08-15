@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import proPic from '../../../asset/img/pro-pic.jpg';
+//Should import images like this instead of using public
+// import proPic from '../../../asset/img/pro-pic.jpg';
 
 const About = () => (
   <section className="about" id="about">
