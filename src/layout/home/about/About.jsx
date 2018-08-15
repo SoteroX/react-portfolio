@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import proPic from '../../../asset/img/pro-pic.jpg';
 
 const About = () => (
   <section className="about" id="about">
@@ -6,7 +7,7 @@ const About = () => (
       <div className="info-container">
         <div className="img-container">
           <img
-            src="../../asset/img/pro-pic.jpg"
+            src={proPic}
             alt=""
             height="85"
             width="85"
