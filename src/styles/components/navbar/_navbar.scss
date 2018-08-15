@@ -1,0 +1,50 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 56px;
+
+  .spacer {
+    flex: 1;
+  }
+
+  .navbar-navi {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .navbar-logo {
+    margin-left: 1rem;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+  }
+
+  .navbar-navi-items {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      li {
+        padding: 0 0.5rem;
+      }
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+      color: orange;
+    }
+  }
+}

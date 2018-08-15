@@ -1,0 +1,12 @@
+@import "./base/settings";
+@import "./base/base";
+//Custom Components
+@import "./components/_home";
+@import "./components/navbar/_navbar";
+@import "./components/navbar/sidedrawer/_DrawerToggleButton";
+@import "./components/navbar/sidedrawer/_side-drawer";
+@import "./components/navbar/backdrop/_backdrop";
+@import "./layout/home/_headSection";
+@import "./layout/home/about/_about";
+@import "./layout/home/contact/_contact";
+@import "./layout/home/project/_project";

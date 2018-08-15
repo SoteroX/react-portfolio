@@ -1,0 +1,25 @@
+.about {
+  background-color: gainsboro;
+  height: 100vh;
+  .box-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    .img-container {
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .text-box {
+      @include md {
+        // 768px window width and more
+        font-size: 23px;
+        margin: 0 auto;
+        width: 700px;
+      }
+    }
+  }
+}
