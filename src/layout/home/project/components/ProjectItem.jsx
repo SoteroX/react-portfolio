@@ -24,7 +24,7 @@ class ProjectItem extends Component {
             <ul className="action">
               <li>
                 <a href="#" className="project-button">
-                  Details
+                  Demo
                 </a>
               </li>
             </ul>

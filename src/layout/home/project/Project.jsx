@@ -5,7 +5,7 @@ const Project = () => (
   <section className="project">
     <div className="inner">
       <header>
-        <h2>project</h2>
+        <h2>Project</h2>
       </header>
       <ProjectItem />
       <ProjectItem />
