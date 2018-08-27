@@ -1,0 +1,21 @@
+.services {
+  height: 100vh;
+  background-color: rgb(167, 159, 159);
+  .service-container {
+    .service-box {
+      .icon-box {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+      }
+      .text-box {
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+      }
+      .line-through {
+        width: 150px;
+      }
+    }
+  }
+}

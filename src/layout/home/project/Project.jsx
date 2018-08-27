@@ -1,26 +1,18 @@
 import React from "react";
+import ProjectItem from "./components/ProjectItem";
 
 const Project = () => (
   <section className="project">
-    <div className="project-wrapper">
-      <h1 className="project-header-text">Projects</h1>
-      <div className="gallery-container">
-        <div>
-          <img src={process.env.PUBLIC_UR + "../../asset/img/coming-soon.png"} alt="" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_UR + "../../asset/img/coming-soon.png"}  alt="" />
-        </div>
-        <div className="vertical">
-          <img src={process.env.PUBLIC_UR + "../../asset/img/coming-soon.png"}  alt="" />
-        </div>
-        <div className="big">
-          <img src={process.env.PUBLIC_UR + "../../asset/img/coming-soon.png"}  alt="" />
-        </div>
-        <div>
-          <img src={process.env.PUBLIC_UR + "../../asset/img/coming-soon.png"}  alt="" />
-        </div>
-      </div>
+    <div className="inner">
+      <header>
+        <h2>project</h2>
+      </header>
+      <ProjectItem />
+      <ProjectItem />
+      <ProjectItem />
+      <ProjectItem />
+      <ProjectItem />
+      <ProjectItem />
     </div>
   </section>
 );
